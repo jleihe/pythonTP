@@ -1,0 +1,4 @@
+#!/bin/bash
+filename="$1"
+cat "template" > "$filename"
+vi "$filename"
